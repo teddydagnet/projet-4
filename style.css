@@ -302,13 +302,13 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 200px;
+    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
-    width: 100px;
+    min-width: 100px;
 }
 
 .nav-center .navbar-brand img {
@@ -567,12 +567,12 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog {
     width: 90%;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto 0;
 }
 
 #lightbox-modal .modal-dialog img {
-    height: 90vh;
+    max-height: 90vh;
     margin: 0 auto;
 }
 
@@ -655,7 +655,7 @@ a {
 }
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .hero-bloc-text {
@@ -672,16 +672,16 @@ a {
     font-size: 20px;
     text-align: center;
     font-weight: lighter;
-    width: 520px;
+    max-width: 520px;
     margin: auto auto auto auto;
 }
 
 p {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
-   width: 600px;
+    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -700,7 +700,7 @@ p {
 }
 
 .social {
-    width: 400px;
+    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -717,7 +717,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    width: 800px;
+    max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -838,10 +838,10 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        width: 80%
+        max-width: 80%
     }
     .nav-center.navbar .nav {
-        width: 100%
+        max-width: 100%
     }
 }
 
@@ -959,7 +959,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        height: 40px;
+        max-height: 40px;
         width: auto;
     }
     .nav-invert .navbar-header {
