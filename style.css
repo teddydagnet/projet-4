@@ -37,11 +37,13 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    background-color: #F4A580;
 }
 
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    
 }
 
 .bloc-lg {
@@ -54,6 +56,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    padding-left: 0%;    
 }
 
 .bg-center,
@@ -91,7 +94,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -274,7 +277,8 @@ a:hover {
 
 .row-no-gutters {
     margin-right: 0;
-    margin-left: 0;    
+    margin-left: 0;
+        
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -308,7 +312,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    width: 100px;
+    width: 216px;
 }
 
 .nav-center .navbar-brand img {
@@ -736,7 +740,8 @@ h4 {
 }
 
 .white {
-    color: #545454!important;
+    color: #FFFFFF!important;
+    background-color: #F4A580;
 }
 
 .portfolio-thumb {
@@ -776,7 +781,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #CB4B10;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -815,11 +820,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/imgupdate/agence-la-panthere.avif");
+    background-image: url("img/Background\ presentation\ entreprise\ La\ panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/imgupdate/image-de-presentation.avif");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
