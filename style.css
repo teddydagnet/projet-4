@@ -858,6 +858,9 @@ h4 {
 }
 
 @media (min-width: 1024px) {
+    .img-responsive{
+        height: 270px;
+    }
     .text-center1{
         margin-left: 38%;
     }
@@ -893,6 +896,9 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+    .img-responsive{
+        height: 270px;
+    }
     .navbar .nav {
         max-width: 80%
     }
@@ -929,7 +935,9 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    
+    .img-responsive{
+        width: 100%;
+    }
     .container {
         width: 100%;
     }
@@ -1155,7 +1163,9 @@ h4 {
 }
 
 @media (max-width: 400px) {
-    
+    .img-responsive{
+        height: 366px;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
