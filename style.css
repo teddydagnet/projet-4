@@ -857,6 +857,26 @@ h4 {
     width: 30.333333%;
 }
 
+@media (min-width: 1024px) {
+    .text-center1{
+        margin-left: 38%;
+    }
+    .text-center2{
+        margin-left: 40%;
+    }
+    .bloc .container {
+        padding-left: 0px;
+        padding-right: 45px;
+    }
+    .col-sm-4 {
+        width: 30.333333%;
+        margin-left: 1%;
+    }
+    .tc-white {
+        color: black!important;
+        text-align: center;
+    }
+}
 @media (max-width: 1024px) {
     
     .bloc {
@@ -935,12 +955,16 @@ h4 {
         margin-left: 38%;
     }
     .col-sm-4 {
-        width: 33.333333%;
+        width: 30.333333%;
     }
     p {
         font-size: 17px;
         padding-bottom: -8px;
         margin-bottom: 20px;
+    }
+    .tc-white {
+        color: black!important;
+        text-align: center;
     }
 }
 
