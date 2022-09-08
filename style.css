@@ -1116,6 +1116,20 @@ h4 {
     
 }
 
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .text-center3 {
+        width: 100%;
+        text-align: center;
+    }
+    .text-center1 {
+        margin-left: 38%;
+    }
+    
+}
+
 @media (max-width: 400px) {
     
     .bloc {
@@ -1136,14 +1150,9 @@ h4 {
     .text-center1 {
         width: 200%;
     }
-    .text-center3 {
-        width: 50%;
-        margin-left: 0%;
-    }
     
-    .tc-white{
-        width: 100%;
-    }
+    
+    
     .title {
         margin-left: 5%;
         width: 90%;
@@ -1162,7 +1171,10 @@ h4 {
     .text-center2{
         margin-left: 30%;
     }
-
+    .text-center3 {
+        width: 70%;
+        text-align: center;
+    }
    
     .col-sm-12 a{
         margin-left: -8%;
@@ -1223,17 +1235,4 @@ h4 {
     
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-    .text-center3 {
-        width: 80%;
-        text-align: center;
-        margin-left: 10%;
-    }
-    .text-center1 {
-        margin-left: 38%;
-    }
-    
-}
+
