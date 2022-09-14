@@ -27,6 +27,11 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.contrast
+{
+    color: #000000!important;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -682,7 +687,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: white!important;
+    color: black!important;
 }
 
 .container {
@@ -1081,7 +1086,9 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+        width: 100%;
     }
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1146,12 +1153,13 @@ h4 {
         margin-left: 40%;
     }
     .col-sm-4 {
-        width: 30.333333%;
-        margin-left: 33%;
+        width: 80%;
+        margin-left: 0%;
     }
     .img34
     {
         height: 570px;
+        width:100%;
     }
     
 }
@@ -1171,6 +1179,17 @@ h4 {
 }
 
 @media (max-width: 400px) {
+
+    .navbar-brand img[src$=svg] {
+        width: 200px;
+    }
+
+    .img34
+    {
+        height:50%;
+        width:100%;
+    }
+
     .img-responsive{
         height: 366px;
     }
@@ -1179,11 +1198,11 @@ h4 {
         padding-right: 0;
     }
     img.center-block.image-resize-mode {
-        margin-left: 25%;
+        margin-left: 16%;
     }
     #bloc-1-hero h1 {
-        font-size: 32px;
-        width: 65%;
+        font-size: 28px;
+        width: 50%;
     }
     .text-center {
         width: 100%;
@@ -1200,13 +1219,14 @@ h4 {
         width: 90%;
     }
     .col-sm-4 {
-        width: 50%;
+        width: 42%;
         margin-left: 0%;
     }
     .title2{
         margin-left: 0%;
         width: 98%;
     }
+    
     .col-sm-12{
         width:100%;
     }
@@ -1214,19 +1234,19 @@ h4 {
         margin-left: 30%;
     }
     .text-center3 {
-        width: 70%;
+        width: 50%;
         text-align: center;
     }
    
     .col-sm-12 a{
-        margin-left: -8%;
+        margin-left: -12.5%;
     }
     .realisation {
         width: 100%;
         margin-left: 0%;
     }
     .col-sm-6{
-        width:66%;
+        width:50%;
     }
     .col-sm-6 p {
         width: 75%;
@@ -1242,7 +1262,7 @@ h4 {
     }
     
     .text-center.white {
-        width: 70%;
+        width: 50%;
         margin-left: -5%;
     }
     h2{
