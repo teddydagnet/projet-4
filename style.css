@@ -1297,8 +1297,9 @@ h4 {
 
 @media only screen and (min-width: 250px) and (max-width: 400px){
     .text-center1 {
-        margin-left: 28%;
-        width: 440%;
+        margin-left: 14%;
+        align-items: center;
+        width: 100%;
     }
     .col-sm-12 {
         width: 85%;
@@ -1307,16 +1308,18 @@ h4 {
         width: 66%;
     }
     .navbar-brand img[src$=svg] {
-        width: 215px;
+        width: 160%;
+        align-items: center;
     }
-    img.center-block.image-resize-mode {
-        margin-left: 9.5%;
+    .tight-width-whitespace {
+        width: 100%;
+        align-items: center;
+        margin-left: 15%;
     }
     #bloc-1-hero h1 {
         font-size: 28px;
-        width: 49%;
-        margin-left: -8%;
-    }
+        width: 94%;
+    }    
     .title {
         margin-left: -4%;
         width: 100%;
@@ -1326,7 +1329,9 @@ h4 {
         width: 100%;
         margin-left: -18%;
     }
-    
+    img.center-block.image-resize-mode {
+        margin-left: 30%;
+    }
     
     p.text-center4 {
         margin-left: -2%;
@@ -1334,31 +1339,44 @@ h4 {
         text-align: center;
     }
     .title2 {
-        width: 100%;
+        width: 40%;
         margin-left: 20%;
     }
     .col-sm-4 {
-        width: 55%;
+        width: 65%;
         text-align: center;
+    }
+    .voffset-lg {
+        margin-top: 30px;
+        width: 250%;
     }
     .col-sm-12 a {
-        margin-left: -5%;
+        margin-left: 0%;
+        width: 65%;
     }
+    .tight-width-whitespace {
+        width: 100%;
+        align-items: center;
+        margin: 0%;
+    }
+
     .contrast {
-        width: 49%;
-        margin-left: -13%;
+        width: 125%;
+        
     }
     .text-center3 {
-        width: 45%;
+        width: 100%;
         text-align: center;
-        margin-left: -10%;
-    }
+    }   
     .realisation {
         width: 100%;
         margin-left: -5%;
     }
     .img-responsive {
         width: 93%;
+    }
+    .col-sm-6 {
+        width: 107%;
     }
     .col-sm-6 h3 {
         width: 100%;
@@ -1370,7 +1388,8 @@ h4 {
         text-align: center;
     }
     .col-sm-12.text-center2 {
-        margin-left: 30%;
+        margin-left: 21%;
+        width: 85%;
     }
     .tc-white{
         margin-left: 1%;
@@ -1379,9 +1398,9 @@ h4 {
         width: 100%;
         margin-left: 5%;
     }
-    .col-sm-12  {
-        width: 100%;
-        margin-left: 5%;
+    .col-sm-12 a  {
+
+        margin-left: 0%;
     }
     .social {
         width: 100%;
@@ -1392,5 +1411,5 @@ h4 {
     .text-center.white3{
         margin-left: -5%;
     }
-}
+} 
 
