@@ -179,6 +179,8 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
+.navbar-toggle:focus { 
+    outline: none; }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
